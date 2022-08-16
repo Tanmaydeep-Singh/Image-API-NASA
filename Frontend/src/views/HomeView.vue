@@ -8,9 +8,7 @@
 
 
 
-<div class="dataDrive">  
 <InputField />
-</div>
 
 
 <img v-bind:src="date" />
@@ -65,15 +63,17 @@ export default {
 
 
 .dataDrive{
-    text-align: left;
     margin: 5vh auto;
     border-radius: 20px;
     background-color: aliceblue;
-    width:80vw;
-    padding: 10px;
+    width:40vw;
+    padding: 15px;
     
 }
 img{
+  border-radius: 20px;
+  max-height:80vh;
+  max-width: 60vw;
 
 }
 
