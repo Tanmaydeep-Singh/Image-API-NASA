@@ -1,17 +1,17 @@
 <template>
 
+  <InputField />
+
+
+<img v-bind:src="date" />
 <div class="head">
 
-<h1>Hello World</h1>
-<p></p>
+
 </div>
 
 
 
-<InputField />
 
-
-<img v-bind:src="date" />
 
 
 
@@ -56,7 +56,7 @@ export default {
     align-content: center;
     justify-content: center;
     width:100vw;
-    height:60vh;
+    height:80vh;
     padding:20px;
     font-size: 2rem;
 }
